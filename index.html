@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LootTree</title>
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+  </head>
+  <body>
+
+    <main>
+      <div class="cursor"></div>
+      <nav>
+        <div class="navleft">
+          <img src="Logo.png" alt="" />
+          <div class="sub">
+            <a href="#subcription" onclick="toggleArrows()">SUBSCRIPTION</a>
+            <i
+              class="down ri-arrow-drop-down-line"
+              onclick="toggleArrows()"
+            ></i>
+            <i class="up ri-arrow-drop-up-line" onclick="toggleArrows()"></i>
+          </div>
+        </div>
+        <div class="navright">
+          <h1 class="join">JOIN</h1>
+          <span>|</span>
+          <h1>LOGIN</h1>
+          <i class="ri-shopping-cart-2-fill"></i>
+        </div>
+      </nav>
+      <div class="subscription">
+        <div class="prime">
+          <h1>Get Our Prime Membership.</h1>
+          <h6>// Free Delivery || Exclusive Offers || 1 Day Delivery //</h6>
+          <div class="rateee">
+            <h3>$100</h3>
+            <span>/year</span>
+          </div>
+        </div>
+        <div class="butn">
+          <button>JOIN NOW</button>
+        </div>
+      </div>
+      <div id="slider ">
+        <div class="item">
+          <div class="details">
+            <h2>L-T Speacial T's</h2>
+            <p>Get these Amazing T's in a cheap rate and Besest Quality!!!</p>
+            <button>LOOT NOW!!!</button>
+          </div>
+          <div class="imgdet">
+            <img src="Untitled.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="details">
+            <h2>L-T Speacial BackPacks</h2>
+            <p>Get these Amazing BackPacks in a cheap rate and Besest Quality!!!</p>
+            <button>LOOT NOW!!!</button>
+          </div>
+          <div class="imgdet">
+            <img src="Screenshot 2024-11-09 220840.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="details">
+            <h2>L-T Speacial Spectacles</h2>
+            <p> Get these Amazing Spectacles in a cheap rate and Besest Quality!!!</p>
+            <button>LOOT NOW!!!</button>
+          </div>
+          <div class="imgdet">
+            <img src="glss.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="offer">
+        <div class="exc">
+          <div class="icons">
+            <i class="ri-vip-crown-fill"></i>
+          </div>
+          <h1>EXCLUSIVE LOOT</h1>
+        </div>
+        <div class="exc">
+          <div class="icons">
+            <i class="ri-vip-diamond-fill"></i>
+          </div>
+          <h1>EXCLUSIVE DISCOUNTS</h1>
+        </div>
+
+        <div class="exc">
+          <div class="icons">
+            <i class="ri-heart-2-fill"></i>
+          </div>
+          <h1>ON-DOOR DELIVERY</h1>
+        </div>
+      </div>
+      <div class="post">
+        <div class="postleft">
+          <div class="posthead">
+            <h1>WHAT's INSIDE</h1>
+          </div>
+          <div class="postcontent">
+            <p>
+              A curated collection of awesome items from the best pop culture
+              franchises, delivered to your door every month.
+            </p>
+          </div>
+          <div class="postbtn">
+            <button>SHOP NOW!!!</button>
+          </div>
+        </div>
+        <div class="postright">
+          <img src="postbtn.png" alt="" />
+        </div>
+      </div>
+      <div class="subs">
+        <div class="subhead">
+          <h1>FEATURED SUBSCRIPTION</h1>
+        </div>
+        <div class="subcontent">
+          <div class="box">
+            <img src="1.png" alt="" />
+            <h1>Loot Crate</h1>
+            <p>
+              Get a Suprise LOOT Crate. Bundles of collectibles, gear from your
+              fav. movies and more
+            </p>
+            <div class="price">
+              <h1>$19.99</h1>
+              <span>// Crate + Shipping</span>
+            </div>
+          </div>
+          <div class="box">
+            <img src="2.png" alt="" />
+            <h1>Filmy Gear</h1>
+            <p>
+              Get a Filmy Gear, a collection of all your favourite movies and series and more.
+              Exclusive Offers Available
+            </p>
+            <div class="price">
+              <h1>$19.99</h1>
+              <span>// Crate + Shipping</span>
+            </div>
+          </div>
+          <div class="box">
+            <img src="3.png" alt="" />
+            <h1>Gift Sets</h1>
+            <p>
+              Get a Gift Set, and impress your known ones with some of these. 
+              Exclusive Offers Available                   
+            </p>
+            <div class="price">
+              <h1>$19.99</h1>
+              <span>// Crate + Shipping</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="partners">
+        <div class="partnerhead">
+          <h1>OUR FEATURED PARTNERS</h1>
+        </div>
+        <div class="images">
+          <div class="partnercontent-top">
+            <div class="first">
+              <img src="partner (1).png" alt="" />
+              <img src="partner (2).png" alt="" />
+            </div>
+            <div class="second">
+              <img src="partner (3).png" alt="" />
+              <img src="partner (4).png" alt="" />
+            </div>
+            <div class="third">
+              <img src="partner (5).png" alt="" />
+              <img src="partner (6).png" alt="" />
+            </div>
+          </div>
+          <div class="partnercontent-bottom">
+            <div class="fourth">
+              <img src="partner (7).png" alt="" />
+              <img src="partner (8).png" alt="" />
+            </div>
+            <div class="fifth">
+              <img src="partner (9).png" alt="" />
+              <img src="partner (10).png" alt="" />
+            </div>
+            <div class="sixth">
+              <img src="partner (11).png" alt="" />
+              <img src="partner (12).png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer__addr">
+          <h1 class="footer__logo">Loot Tree</h1>
+              
+          <h2>Contact</h2>
+          
+          <address>
+            London, UK<br>
+                
+            <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+          </address>
+        </div>
+        
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Media</h2>
+      
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Online</a>
+              </li>
+      
+              <li>
+                <a href="#">Print</a>
+              </li>
+                  
+              <li>
+                <a href="#">Alternative Ads</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav__item nav__item--extra">
+            <h2 class="nav__title">Technology</h2>
+            
+            <ul class="nav__ul nav__ul--extra">
+              <li>
+                <a href="#">Hardware Design</a>
+              </li>
+              
+              <li>
+                <a href="#">Software Design</a>
+              </li>
+              
+              <li>
+                <a href="#">Digital Signage</a>
+              </li>
+              
+              <li>
+                <a href="#">Automation</a>
+              </li>
+              
+              <li>
+                <a href="#">Artificial Intelligence</a>
+              </li>
+              
+              <li>
+                <a href="#">IoT</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav__item">
+            <h2 class="nav__title">Legal</h2>
+            
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+              
+              <li>
+                <a href="#">Terms of Use</a>
+              </li>
+              
+              <li>
+                <a href="#">Sitemap</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="legal">
+          <p>&copy;  Loot Tree. All rights reserved.</p>
+          <div class="legal__links">
+            <img src="Logo.png" alt="">
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
