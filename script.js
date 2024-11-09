@@ -27,7 +27,7 @@ function showSlides() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}    
     slides[slideIndex-1].style.display = "";  
-    setTimeout(showSlides, 1000);
+    setTimeout(showSlides, 2000);
 }
 
 const join = document.querySelector(".join");
